@@ -1,0 +1,17 @@
+.generic-content-container{
+    p{
+        line-height: 1.65;
+         
+        margin:1.8em 0;
+        min-width: 21.875em;
+        @mixin atSmall {
+            font-size: 1.25rem;
+        }
+    }  
+   p a{
+    font-weight: 700;
+    }
+    h2{
+        min-width: 21.875em;
+    }
+  }

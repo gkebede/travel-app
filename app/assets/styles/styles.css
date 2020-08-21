@@ -1,9 +1,14 @@
-body{
-    font-family: 'Roboto',sans-serif;
-    color: #333;
-}
+@import "normalize.css";
  
-img{
-    max-width: 100%;
-    height: auto;
-}
+@import 'base_css/_variables';
+ @import "base_css/_mixins";
+ @import "base_css/_global";
+@import "modules_css/_large-hero";
+@import "modules_css/_btn";
+@import "modules_css/_wrapper";
+@import "modules_css/_page_section";
+@import "modules_css/_headline";
+@import "modules_css/row";
+@import "modules_css/_generic-content-container";
+ 
+ 
